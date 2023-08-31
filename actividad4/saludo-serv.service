@@ -1,0 +1,8 @@
+[Unit]
+Description=Saludo Service 
+
+[Service]
+ExecStart=/usr/local/bin/Script.sh
+
+[Install]
+WantedBy=multi-user.target
